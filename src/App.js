@@ -185,6 +185,7 @@ function App() {
                 endIcon={<RestartAltIcon />}
                 onClick={() => {
                   setIndexNumber(0);
+                  setScore(0);
                   setShowResult(false);
                   setMinutes(1);
                   setSeconds(30);
